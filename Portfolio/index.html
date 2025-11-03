@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Kumar - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="#" class="nav-brand">Shubham Kumar</a>
+
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                    <li><a href="mailto:shubham13051990@gmail.com" >Contact</a></li>
+                </ul>
+
+                <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation">
+                    <span class="hamburger"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="about" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-headline">Hi, I'm Shubham Kumar</h1>
+                    <p class="hero-subheadline">
+                        A front-end developer passionate about building clean, responsive, and user-friendly web
+                        applications. I turn ideas into engaging digital experiences.
+                    </p>
+                    <div class="hero-links">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="resume.pdf.pdf" class="btn btn-secondary" target="_blank">View Resume</a>
+                    </div>
+                </div>
+                <img src="self_image2.jpg" alt="A photo or avatar of Shubham Kumar" class="hero-image">
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">My Tech Stack & Expertise</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fa-brands fa-react skill-icon"></i>
+                        <h3 class="skill-title">React</h3>
+                        <p class="skill-context">Proficient with Hooks & Context API for building dynamic SPAs.</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-brands fa-js skill-icon"></i>
+                        <h3 class="skill-title">JavaScript (ES6+)</h3>
+                        <p class="skill-context">Strong grasp of async ops, DOM manipulation, and modern syntax.</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-brands fa-html5 skill-icon"></i>
+                        <h3 class="skill-title">HTML5</h3>
+                        <p class="skill-context">Semantic and accessible markup for robust web structures.</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-brands fa-css3-alt skill-icon"></i>
+                        <h3 class="skill-title">CSS3</h3>
+                        <p class="skill-context">Expert in Flexbox, Grid, custom properties, and responsive design.</p>
+                    </div>
+                    <!-- Java -->
+                    <div class="skill-item">
+                        <i class="fa-brands fa-java skill-icon"></i>
+                        <h3 class="skill-title">Java</h3>
+                        <p class="skill-context">Built robust applications and implemented OOP-based system designs.</p>
+                    </div>
+
+                    <!-- Python -->
+                    <div class="skill-item">
+                        <i class="fa-brands fa-python skill-icon"></i>
+                        <h3 class="skill-title">Python</h3>
+                        <p class="skill-context">Developed automation scripts, data analysis tools, and backend
+                            services.</p>
+                    </div>
+
+                    <!-- C -->
+                    <div class="skill-item">
+                        <i class="fa-solid fa-c skill-icon"></i>
+                        <h3 class="skill-title">C</h3>
+                        <p class="skill-context">Implemented efficient data structures and low-level system programs.
+                        </p>
+                    </div>
+
+                    <!-- C++ -->
+                    <div class="skill-item">
+                        <i class="fa-solid fa-code skill-icon"></i>
+                        <h3 class="skill-title">C++</h3>
+                        <p class="skill-context">Developed high-performance algorithms and object-oriented solutions.
+                        </p>
+                    </div>
+
+                    <!-- Jira -->
+                    <div class="skill-item">
+                        <i class="fa-brands fa-jira skill-icon"></i>
+                        <h3 class="skill-title">Jira</h3>
+                        <p class="skill-context">Managed agile workflows and tracked project progress using Scrum/Kanban
+                            boards.</p>
+                    </div>
+
+                    <div class="skill-item">
+                        <i class="fa-brands fa-git-alt skill-icon"></i>
+                        <h3 class="skill-title">Git & GitHub</h3>
+                        <p class="skill-context">Collaborative development and version control best practices.</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-solid fa-cloud skill-icon"></i>
+                        <h3 class="skill-title">Deployment</h3>
+                        <p class="skill-context">Deploying and maintaining web applications on modern platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">My Personal Projects</h2>
+
+                <section class="projects-section">
+                    <div class="project-carousel-wrapper">
+                        <div class="project-carousel">
+
+                            <article class="project-card card--active">
+                                <img src="lib_manage.jpeg" alt="Project One" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">Library Management System</h3>
+                                    <p class="project-description">
+                                        Library management using OOPs concepts in C++.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span class="tag">C++</span>
+                                        <span class="tag">OOPs</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://github.com/spkid-ui/worksp/tree/12d0fe69eff6b1957038e4fb745dde64b6c452bb/Library%20Management%20System"
+                                            class="project-link"><i class="fa-brands fa-github"></i> Source
+                                            Code</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="project-card card--next">
+                                <img src="parking_system.jpeg" alt="Project Two" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">Smart Parking System</h3>
+                                    <p class="project-description">
+                                        A parking management app B+ Trees to manage parking slots efficiently.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span class="tag">C</span>
+                                        <span class="tag">B+ tree</span>
+                                    </div>
+                                    <div class="project-links">
+
+                                        <a href="https://github.com/spkid-ui/worksp/tree/12d0fe69eff6b1957038e4fb745dde64b6c452bb/Smart%20Parking%20Management%20System"
+                                            class="project-link"><i class="fa-brands fa-github"></i> Source
+                                            Code</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="project-card card--prev">
+                                <img src="portfolio.png" alt="Project Three" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">Portfolio Website</h3>
+                                    <p class="project-description">
+                                        A responsive portfolio site built with HTML, CSS, and JavaScript.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">JS</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="#" class="project-link"><i
+                                                class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                                        <a href="#" class="project-link"><i class="fa-brands fa-github"></i> Source
+                                            Code</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                        </div>
+
+                        <!-- Navigation Buttons -->
+                        <button class="carousel-btn prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button class="carousel-btn next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section id="education" class="education-section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-grid">
+                    <div class="education-item">
+                        <h3 class="education-degree">Btech in Computer Science and Engineering</h3>
+                        <p class="education-institution">Visvesvaraya National Institute of Technology, Nagpur</p>
+                        <p class="education-dates">Graduating: May 2027</p>
+                        <p class="education-notes">Focused on algorithms, data structures, and software engineering
+                            principles.</p>
+                    </div>
+                    <div class="education-item">
+                        <h3 class="education-degree">Web Development</h3>
+                        <p class="education-institution">Udemy, Online</p>
+                        <p class="education-dates">Completed: March 2023</p>
+                        <p class="education-notes">12-week program covering web development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards" class="awards-section">
+            <div class="container">
+                <h2 class="section-title">Awards & Recognition</h2>
+                <ul class="awards-list">
+                    <li>LeetCode - 1111</li>
+                    <li>Good Student</li>
+                    
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-contact">
+                    <h4>Get in Touch</h4>
+                    <p><a href="mailto:shubham13051990@gmail.com">shubham13051990@gmail.com</a></p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Me</h4>
+                    <a href="https://github.com/spkid-ui/worksp.git" target="_blank" aria-label="GitHub"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="http://www.linkedin.com/in/shubhamkr13" target="_blank" aria-label="LinkedIn"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/_.i._shubham._/" target="_blank" aria-label="Instagram"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <p class="footer-copyright">&copy; 2025 Shubham_Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
